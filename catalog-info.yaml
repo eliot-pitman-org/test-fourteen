@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-fourteen
+  description: This is a single spa root app in the bih-dev namespace
+  tags:
+    - mfe
+  annotations:
+    github.com/project-slug: department-of-veterans-affairs/test-fourteen
+    
+    backstage.io/techdocs-ref: dir:.
+    
+spec:
+  type: website
+  owner: bih
+  system: bip-platform
+  lifecycle: experimental
